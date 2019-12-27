@@ -1,0 +1,98 @@
+@font-face{
+	font-family: FiraSans;
+	src: url('static/font/fira-sans/FiraSans-ExtraBoldItalic.otf') format('truetype');
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	height: 60px;
+	background-color: blue;
+	background-image: linear-gradient(90deg, #05CFD8 30%, #25A7BF 50%, #05CFD8 90%);
+	box-shadow: 2px 2px 5px rgba(0,0,0,.75);
+	z-index: 1;
+}
+
+.header h1{
+	font-family: "Firasans";
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	letter-spacing: 2px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 1200px;
+}
+
+/* SIDEBAR MENU */
+.sidebaropen {
+	height: 100%; /* 100% Full-height */
+	width: 250px; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 2; /* Stay on top */
+	top: 0;
+	left: 0;
+	background-color: #25A7BF;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebaropen a {
+	font-family: "Firasans";
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #353D4A;
+	display: block;
+	transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebaropen a:hover {
+	color: #05CFD8;
+	background-color: #F5F1E6;
+}
+
+/*************************************   homepagepanel.jsp *************************************/
+.fotoprofil{
+	width: 120px;
+	height: 120px;
+	background-color: green;
+	margin-left: 60px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 10px;
+}
+
+p {
+	font-family: "Firasans";
+}
+
+.sidebaropen p {
+	margin-top: 10px;
+	text-align: center;
+}
+
+/*************************************   transfer.jsp *************************************/
+form {
+	margin-top: 100px;
+}
+
+tr{
+	height: 30px;
+	text-indent: 10px;
+}
+
+td {
+	font-family: "Firasans";
+}
+
+button {
+	margin-top: 10px;
+	font-family: "Firasans";
+}

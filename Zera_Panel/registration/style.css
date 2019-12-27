@@ -1,0 +1,19 @@
+@font-face{
+	font-family: FiraSans;
+	src: url('static/font/fira-sans/FiraSans-ExtraBoldItalic.otf') format('truetype');
+}
+
+form {
+	margin-top: 10%;
+}
+
+input {
+	height: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	text-indent: 10px;
+}
+
+td,button {
+	font-family: "FiraSans";
+}
